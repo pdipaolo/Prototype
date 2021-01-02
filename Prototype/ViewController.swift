@@ -43,7 +43,7 @@ class ViewController: UIViewController,GIDSignInDelegate {
     }
     
     @IBOutlet weak var googleSignIn: GIDSignInButton!
-    @IBOutlet weak var imageView: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

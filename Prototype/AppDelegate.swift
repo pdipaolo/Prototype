@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          In project Info, insert in Url types same client id but reversed com.googleusercontent.apps.****
          
          */
-        GIDSignIn.sharedInstance().clientID = ""
+        GIDSignIn.sharedInstance().clientID = "405853206739-j9ba40i6rn4s3jp8obfats7pb39nll0u.apps.googleusercontent.com"
         
         // Override point for customization after application launch.
         return true

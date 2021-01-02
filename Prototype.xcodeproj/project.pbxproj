@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		31B8589C96356BDE8B85AA20 /* Pods_PrototypeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65339117AC33D419D0AFD4F /* Pods_PrototypeTests.framework */; };
 		3BA5F08810ADCCBF4C619515 /* Pods_Prototype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C58EC56A02D898EFD10ADC /* Pods_Prototype.framework */; };
+		5D3BE182259FFFB200FEE3C9 /* ExtendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BE181259FFFB200FEE3C9 /* ExtendViewController.swift */; };
+		5D3BE18725A0006D00FEE3C9 /* UITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BE18625A0006D00FEE3C9 /* UITabBar.swift */; };
+		5D3BE18F25A0068F00FEE3C9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BE18E25A0068F00FEE3C9 /* Color.swift */; };
 		5D3CA3042592B41500014E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CA3032592B41500014E98 /* AppDelegate.swift */; };
 		5D3CA3062592B41500014E98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CA3052592B41500014E98 /* SceneDelegate.swift */; };
 		5D3CA3082592B41500014E98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CA3072592B41500014E98 /* ViewController.swift */; };
@@ -48,6 +51,9 @@
 		098F5C9177A1B62E3204B397 /* Pods_Prototype_PrototypeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prototype_PrototypeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E651570B15CD25F44788866 /* Pods-PrototypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrototypeTests.debug.xcconfig"; path = "Target Support Files/Pods-PrototypeTests/Pods-PrototypeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		48DD3CEA162F50A52F232553 /* Pods-Prototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prototype.release.xcconfig"; path = "Target Support Files/Pods-Prototype/Pods-Prototype.release.xcconfig"; sourceTree = "<group>"; };
+		5D3BE181259FFFB200FEE3C9 /* ExtendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendViewController.swift; sourceTree = "<group>"; };
+		5D3BE18625A0006D00FEE3C9 /* UITabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBar.swift; sourceTree = "<group>"; };
+		5D3BE18E25A0068F00FEE3C9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		5D3CA3002592B41500014E98 /* Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3CA3032592B41500014E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D3CA3052592B41500014E98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -193,7 +199,10 @@
 		5D3CA3502593A45C00014E98 /* UIsupport */ = {
 			isa = PBXGroup;
 			children = (
+				5D3BE18625A0006D00FEE3C9 /* UITabBar.swift */,
+				5D3BE18E25A0068F00FEE3C9 /* Color.swift */,
 				5D3CA33B2592C9E900014E98 /* TextFieldLogin.swift */,
+				5D3BE181259FFFB200FEE3C9 /* ExtendViewController.swift */,
 				5D3CA3362592C86B00014E98 /* LoginSocialButton.swift */,
 			);
 			path = UIsupport;
@@ -487,12 +496,15 @@
 				5D3CA3082592B41500014E98 /* ViewController.swift in Sources */,
 				5D3CA3042592B41500014E98 /* AppDelegate.swift in Sources */,
 				5D3CA34B2593A1A500014E98 /* ImageURLProtocol.swift in Sources */,
+				5D3BE18F25A0068F00FEE3C9 /* Color.swift in Sources */,
 				5D3CA33C2592C9E900014E98 /* TextFieldLogin.swift in Sources */,
+				5D3BE182259FFFB200FEE3C9 /* ExtendViewController.swift in Sources */,
 				5D3CA3372592C86B00014E98 /* LoginSocialButton.swift in Sources */,
 				5D3CA35D2593FDF200014E98 /* FacebookButton.swift in Sources */,
 				5D3CA3622594073B00014E98 /* MainViewController.swift in Sources */,
 				5D3CA3062592B41500014E98 /* SceneDelegate.swift in Sources */,
 				5D3CA3462593A19300014E98 /* ImageCacheClass.swift in Sources */,
+				5D3BE18725A0006D00FEE3C9 /* UITabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
