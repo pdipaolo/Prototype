@@ -10,7 +10,7 @@ import UIKit
 extension UIViewController {
     
     func setup(){
-        navigationController?.navigationBar.isHidden = true
+        navigationController?.isNavigationBarHidden = true
         
         
         if let image = UIImage(named: "sfondo.pdf") {
@@ -18,6 +18,7 @@ extension UIViewController {
             let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.height))
             imageView.contentMode = .scaleAspectFit
             imageView.image = image
+            
             self.view.addSubview(imageView)
             
         }

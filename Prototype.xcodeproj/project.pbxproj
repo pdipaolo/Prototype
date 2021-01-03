@@ -12,6 +12,8 @@
 		5D3BE182259FFFB200FEE3C9 /* ExtendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BE181259FFFB200FEE3C9 /* ExtendViewController.swift */; };
 		5D3BE18725A0006D00FEE3C9 /* UITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BE18625A0006D00FEE3C9 /* UITabBar.swift */; };
 		5D3BE18F25A0068F00FEE3C9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BE18E25A0068F00FEE3C9 /* Color.swift */; };
+		5D3BE19525A1541900FEE3C9 /* CentralButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BE19425A1541900FEE3C9 /* CentralButton.swift */; };
+		5D3BE19A25A1546700FEE3C9 /* TabBarViewVontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BE19925A1546700FEE3C9 /* TabBarViewVontroller.swift */; };
 		5D3CA3042592B41500014E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CA3032592B41500014E98 /* AppDelegate.swift */; };
 		5D3CA3062592B41500014E98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CA3052592B41500014E98 /* SceneDelegate.swift */; };
 		5D3CA3082592B41500014E98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CA3072592B41500014E98 /* ViewController.swift */; };
@@ -54,6 +56,8 @@
 		5D3BE181259FFFB200FEE3C9 /* ExtendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendViewController.swift; sourceTree = "<group>"; };
 		5D3BE18625A0006D00FEE3C9 /* UITabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBar.swift; sourceTree = "<group>"; };
 		5D3BE18E25A0068F00FEE3C9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5D3BE19425A1541900FEE3C9 /* CentralButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralButton.swift; sourceTree = "<group>"; };
+		5D3BE19925A1546700FEE3C9 /* TabBarViewVontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewVontroller.swift; sourceTree = "<group>"; };
 		5D3CA3002592B41500014E98 /* Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3CA3032592B41500014E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D3CA3052592B41500014E98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +130,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5D3BE19325A153FE00FEE3C9 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BE18625A0006D00FEE3C9 /* UITabBar.swift */,
+				5D3BE19425A1541900FEE3C9 /* CentralButton.swift */,
+				5D3BE19925A1546700FEE3C9 /* TabBarViewVontroller.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
 		5D3CA2F72592B41500014E98 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +172,7 @@
 				5D3CA34F2593A44300014E98 /* ImageSupport */,
 				5D3CA3502593A45C00014E98 /* UIsupport */,
 				5D3CA3052592B41500014E98 /* SceneDelegate.swift */,
+				5D3BE19325A153FE00FEE3C9 /* Tab Bar */,
 				5D3CA35C2593FDF200014E98 /* FacebookButton.swift */,
 				5D3CA3072592B41500014E98 /* ViewController.swift */,
 				5D3CA36625940D0C00014E98 /* GetFacebookInfo.swift */,
@@ -199,7 +214,6 @@
 		5D3CA3502593A45C00014E98 /* UIsupport */ = {
 			isa = PBXGroup;
 			children = (
-				5D3BE18625A0006D00FEE3C9 /* UITabBar.swift */,
 				5D3BE18E25A0068F00FEE3C9 /* Color.swift */,
 				5D3CA33B2592C9E900014E98 /* TextFieldLogin.swift */,
 				5D3BE181259FFFB200FEE3C9 /* ExtendViewController.swift */,
@@ -493,6 +507,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D3CA36725940D0C00014E98 /* GetFacebookInfo.swift in Sources */,
+				5D3BE19A25A1546700FEE3C9 /* TabBarViewVontroller.swift in Sources */,
+				5D3BE19525A1541900FEE3C9 /* CentralButton.swift in Sources */,
 				5D3CA3082592B41500014E98 /* ViewController.swift in Sources */,
 				5D3CA3042592B41500014E98 /* AppDelegate.swift in Sources */,
 				5D3CA34B2593A1A500014E98 /* ImageURLProtocol.swift in Sources */,

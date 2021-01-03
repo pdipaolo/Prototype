@@ -9,13 +9,13 @@ import Foundation
 
 import UIKit
 
+@IBDesignable
 class CustomTabBar: UITabBar {
-
-    let centralView = CentralButton(frame: CGRect(x: (Int(UIScreen.main.bounds.width) / 2) - (60 / 2) , y: -50, width: 60 , height: 60))
     @IBInspectable var color: UIColor?
     @IBInspectable var radii: CGFloat = 25.0
     override func draw(_ rect: CGRect) {
          addShape()
+        
      }
     private func addShape() {
         let shapeLayer = CAShapeLayer()
@@ -57,52 +57,7 @@ class CustomTabBar: UITabBar {
     }
     
     func initBar() {
-        
-        self.addSubview(centralView)
-        
+
     }
-}
-
-
-class CentralButton: UIView {
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        initView()
-        
-    }
-
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        initView()
-    }
-    func initView() {
-        if let image = UIImage(named: "cart") {
-            self.backgroundColor = UIColor(patternImage: image)
-        }
-        self.backgroundColor = Color.primaryColor
-        self.rotate(angle:45)
-        layer.cornerRadius = 5
-        
-        self.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
-        self.layer.shadowOffset = CGSize(width: 2.0, height: 5.0)
-        self.layer.shadowOpacity = 1.0
-        self.layer.shadowRadius = 5.0
-        self.layer.masksToBounds = false
-    }
-}
-
-extension UIView {
-
-    /**
-     Rotate a view by specified degrees
-
-     - parameter angle: angle in degrees
-     */
-    func rotate(angle: CGFloat) {
-        let radians = angle / 180.0 * CGFloat.pi
-        let rotation = self.transform.rotated(by: radians);
-        self.transform = rotation
-    }
-
 }
