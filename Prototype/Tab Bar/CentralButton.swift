@@ -21,7 +21,7 @@ class CButton: UIButton {
    }
    
 
-   func initView() {
+   private func initView() {
 
         self.backgroundColor = Color.primaryColor
         self.rotate(angle: 45)
@@ -29,8 +29,6 @@ class CButton: UIButton {
            
             self.setImage(image, for: .normal)
         }
-      
- 
         self.layer.shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: 5).cgPath
         self.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
         self.layer.shadowOffset = CGSize(width: 2.0, height: 5.0)

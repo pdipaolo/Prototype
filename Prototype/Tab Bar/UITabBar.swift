@@ -9,7 +9,7 @@ import Foundation
 
 import UIKit
 
-@IBDesignable
+
 class CustomTabBar: UITabBar {
     @IBInspectable var color: UIColor?
     @IBInspectable var radii: CGFloat = 25.0

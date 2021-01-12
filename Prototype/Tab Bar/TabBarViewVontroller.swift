@@ -22,8 +22,7 @@ class CenterButtonTabBarController: UITabBarController {
         button.addTarget(self, action: #selector(didTouchCenterButton(_:)), for: .touchUpInside)
     }
 
-    @objc
-    private func didTouchCenterButton(_ sender: AnyObject) {
+    @objc private func didTouchCenterButton(_ sender: AnyObject) {
         self.performSegue(withIdentifier: "SegueCart", sender: nil)
     }
 
